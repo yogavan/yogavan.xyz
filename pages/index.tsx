@@ -89,7 +89,7 @@ const HeroSection: React.FC = () => {
   return (
     <Box position="relative" overflow="hidden">
       <BackgroundGradient height="100%" zIndex="-1" />
-      <Container maxW="container.xl" pt={{ base: 44, lg: 44 }} pb="40">
+      <Container maxW="container.xl" pt={{ base: 24, lg: 24 }} pb="40">
         <Stack direction={{ base: "column", lg: "row" }} alignItems="center">
           <Hero
             id="home"
@@ -98,7 +98,6 @@ const HeroSection: React.FC = () => {
             title={
               <FallInPlace fontWeight="Light" fontSize={35}>
                 Nameste
-                <Br />
                 <Br /> Yoga Reimagined, <Br /> Personalized, <Br /> Corrective and <Br /> Empowering <Br />
               </FallInPlace>
             }
