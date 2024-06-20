@@ -89,7 +89,7 @@ const HeroSection: React.FC = () => {
   return (
     <Box position="relative" overflow="hidden">
       <BackgroundGradient height="100%" zIndex="-1" />
-      <Container maxW="container.xl" pt={{ base: 40, lg: 60 }} pb="40">
+      <Container maxW="container.xl" pt={{ base: 44, lg: 44 }} pb="40">
         <Stack direction={{ base: "column", lg: "row" }} alignItems="center">
           <Hero
             id="home"
@@ -150,9 +150,10 @@ const HeroSection: React.FC = () => {
             margin="0 auto"
           >
             <FallInPlace delay={1}>
-              <Box overflow="hidden" height="100%">
+              {/* make the box rounded */}
+              <Box overflow="hidden" height="100%" borderWidth='4px' borderRadius='3xl'                >
                 <Image
-                  src="/static/screenshots/list.png"
+                  src="/static/screenshots/main.jpg"
                   layout="fixed"
                   width={1200}
                   height={762}
