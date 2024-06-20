@@ -73,11 +73,11 @@ const Home: NextPage = () => {
 
         <HighlightsSection />
 
-        <FeaturesSection />
+        {/* <FeaturesSection /> */}
 
-        <TestimonialsSection />
+        {/* <TestimonialsSection /> */}
 
-        <PricingSection />
+        {/* <PricingSection /> */}
 
         <FaqSection />
       </Box>

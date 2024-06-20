@@ -8,8 +8,8 @@ import { Logo } from './logo'
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Saas UI',
-    description: 'The React component library for startups',
+    title: 'Yogavan AI',
+    description: '',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -19,23 +19,23 @@ const siteConfig = {
         id: 'features',
         label: 'Features',
       },
-      {
-        id: 'pricing',
-        label: 'Pricing',
-      },
+      // {
+      //   id: 'pricing',
+      //   label: 'Pricing',
+      // },
       {
         id: 'faq',
         label: 'FAQ',
       },
-      {
-        label: 'Login',
-        href: '/login',
-      },
-      {
-        label: 'Sign Up',
-        href: '/signup',
-        variant: 'primary',
-      },
+      // {
+      //   label: 'Login',
+      //   href: '/login',
+      // },
+      // {
+      //   label: 'Sign Up',
+      //   href: '/signup',
+      //   variant: 'primary',
+      // },
     ],
   },
   footer: {
