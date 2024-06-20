@@ -18,6 +18,7 @@ const siteConfig = {
       {
         id: 'features',
         label: 'Features',
+        href: '#features',
       },
       // {
       //   id: 'pricing',
@@ -26,6 +27,7 @@ const siteConfig = {
       {
         id: 'faq',
         label: 'FAQ',
+        href: '#faq',
       },
       // {
       //   label: 'Login',
