@@ -98,7 +98,7 @@ const HeroSection: React.FC = () => {
             title={
               <FallInPlace fontWeight="Light" fontSize={35}>
                 Nameste
-                <Br /> Experience Yoga, Reimagined: Personalized, Corrective, Empowering
+                <Br /> Yoga Reimagined Personalized, Corrective and Empowering
               </FallInPlace>
             }
             description={
