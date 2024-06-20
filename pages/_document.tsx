@@ -8,7 +8,6 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head>
-          <Script src="https://getlaunchlist.com/js/widget.js" defer />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
