@@ -115,7 +115,7 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
+                <ButtonLink colorScheme="teal" size="lg" href="/signup">
                   Sign Up
                 </ButtonLink>
                 <ButtonLink
@@ -234,7 +234,7 @@ const HighlightsSection = () => {
             py="1"
             ps="8"
             pe="2"
-            bg="primary.900"
+            bg="teal.900"
             _dark={{ bg: "gray.900" }}
           >
             <Box>
