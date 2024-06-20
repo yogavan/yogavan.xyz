@@ -98,7 +98,8 @@ const HeroSection: React.FC = () => {
             title={
               <FallInPlace fontWeight="Light" fontSize={35}>
                 Nameste
-                <Br /> Yoga Reimagined Personalized, Corrective and Empowering
+                <Br />
+                <Br /> Yoga Reimagined, <Br /> Personalized, <Br /> Corrective and <Br /> Empowering <Br />
               </FallInPlace>
             }
             description={
@@ -125,7 +126,7 @@ const HeroSection: React.FC = () => {
           >
             <FallInPlace delay={1}>
               {/* make the box rounded */}
-              <Box overflow="hidden" height="100%" borderWidth='4px' borderRadius='3xl'                >
+              <Box overflow="hidden" height="100%" borderWidth='4px' borderRadius='3xl' marginRight={20}>
                 <Image
                   src="/static/screenshots/main.jpg"
                   layout="fixed"
