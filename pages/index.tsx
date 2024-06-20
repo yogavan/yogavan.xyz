@@ -96,16 +96,15 @@ const HeroSection: React.FC = () => {
             justifyContent="flex-start"
             px="0"
             title={
-              <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+              <FallInPlace fontWeight="Light" fontSize={35}>
+                Nameste
+                <Br /> Experience Yoga, Reimagined: Personalized, Corrective, Empowering
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                <Br /> Elevate Your Yoga Journey with Ancient Wisdom and Modern Precision <Br />{" "}
+                Unlimited yoga and meditation for $2/month
               </FallInPlace>
             }
           >
