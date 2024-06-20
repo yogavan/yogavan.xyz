@@ -1,12 +1,14 @@
 import { ColorModeScript } from '@chakra-ui/react'
 import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
 import theme from '../theme'
+import Script from 'next/script'
 
 export default class Document extends NextDocument {
   render() {
     return (
       <Html lang="en">
         <Head>
+          <Script src="https://getlaunchlist.com/js/widget.js" defer />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
