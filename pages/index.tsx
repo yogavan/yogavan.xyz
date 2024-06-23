@@ -97,14 +97,13 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace fontWeight="Light" fontSize={35}>
-                Nameste
-                <Br /> Yoga Reimagined, <Br /> Personalized, <Br /> Corrective and <Br /> Empowering <Br />
+                <Br /> Yoga  <Br /> Personalized, <Br /> Corrective & <Br /> Empowering <Br />
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                <Br /> Elevate Your Yoga Journey with Ancient Wisdom and Modern Precision <Br />{" "}
-                Unlimited yoga and meditation for $2/month
+                <Br /> Elevate Your Yoga Journey with Ancient Wisdom and Modern Pose Precision <Br />{" "}
+                Unlimited Yoga and meditation for $2/month
               </FallInPlace>
             }
           >
@@ -149,33 +148,31 @@ const HeroSection: React.FC = () => {
         pt="20"
         features={[
           {
-            title: "Accessible",
+            title: "Affordable",
             icon: FiSmile,
-            description: "All components strictly follow WAI-ARIA standards.",
+            description: "Yoga shouldn't stress your wallet. Experience accessible wellness with our affordable classes—where relaxation meets affordability, effortlessly.\"",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Themable",
+            title: "Customizable",
             icon: FiSliders,
             description:
-              "Fully customize all components to your brand with theme support and style props.",
+              "Tailor your yoga journey with customizable plans designed to meet your unique needs and goals.",
             iconPosition: "left",
             delay: 0.8,
           },
           {
-            title: "Composable",
+            title: "Pose Estimation",
             icon: FiGrid,
-            description:
-              "Compose components to fit your needs and mix them together to create new ones.",
+            description: "",
             iconPosition: "left",
             delay: 1,
           },
           {
-            title: "Productive",
+            title: "Productivity",
             icon: FiThumbsUp,
-            description:
-              "Designed to reduce boilerplate and fully typed, build your product at speed.",
+            description: "Boost your productivity with components that are designed to increase your development",
             iconPosition: "left",
             delay: 1.1,
           },
