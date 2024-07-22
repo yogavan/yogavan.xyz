@@ -108,7 +108,7 @@ export const AnnouncementBanner: React.FC<AnnouncementBannerProps> = (
                         />
                       }
                     >
-                      Read more
+                      Read more...
                     </Button>
                   </BannerActions>
                 )}
